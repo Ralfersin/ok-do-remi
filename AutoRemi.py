@@ -11,7 +11,7 @@ def autoRemi():
    auto.hotkey('ctrl','v')
    auto.press('enter')
 
-auto.alert(text = 'O respondedor de chat do Remi tumático vai começar.')
+auto.alert(text = 'O respondedor de chat do Remi tumático vai começar agora.')
 while True:
    autoRemi()
    time.sleep(600)
