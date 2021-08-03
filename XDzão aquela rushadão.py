@@ -22,7 +22,7 @@ pyautogui.click(606, 641)
 time.sleep(10)
 pyautogui.alert('O downlod irá iniciar')
 tabela = pd.read_excel(r'C:\Users\Ivo Lucas\Desktop\Vendas - Dez.xlsx')
-display(tabela)
+#display(tabela)
 faturamento = tabela['Valor Final'].sum()
 qtProdutos = tabela['Quantidade'].sum()
 
